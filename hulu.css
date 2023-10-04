@@ -1,0 +1,33 @@
+body{
+    color: white;
+    background-color: black;
+}
+.center{
+    text-align: center;
+}
+
+.f1{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.d1{
+    position: relative;
+}
+.sd{
+    color: white;
+    position: absolute;
+    top: 0px;
+    background: rgba(0, 0, 0.9, 0.3);
+    height: 100%;
+    width: 100%;
+}
+.d2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+.d2 img{
+    height: 800px;
+}
